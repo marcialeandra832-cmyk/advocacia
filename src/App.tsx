@@ -101,7 +101,7 @@ export default function App() {
             </h2>
             <h1 className="text-5xl md:text-7xl font-serif font-bold mb-8 leading-[1.1]">
               Protegendo seu <br />
-              <span className="italic font-normal text-gold/90">Legado</span> com <br />
+              <span className="italic font-normal text-gold/90">Patrimônio</span> com <br />
               Autoridade.
             </h1>
             <p className="text-ice/60 text-lg mb-12 leading-relaxed font-light max-w-md">
@@ -141,14 +141,14 @@ export default function App() {
           >
             <div className="relative z-10 rounded-[2rem] overflow-hidden border border-gold/20 aspect-[4/5] shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=1000" 
-                alt="Dr. Roberto Vanguarda" 
+                src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=1000" 
+                alt="Dra. Helena Vanguarda" 
                 className="w-full h-full object-cover grayscale brightness-90 hover:grayscale-0 transition-all duration-1000"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy via-transparent to-transparent opacity-80" />
               <div className="absolute bottom-8 left-8 right-8 p-6 glass rounded-2xl border border-white/5">
-                <div className="text-gold font-serif text-2xl mb-1">Dr. Roberto Vanguarda</div>
+                <div className="text-gold font-serif text-2xl mb-1">Dra. Helena Vanguarda</div>
                 <div className="text-[10px] uppercase tracking-[0.3em] text-ice/60">OAB/SP 123.456</div>
               </div>
             </div>
@@ -167,7 +167,7 @@ export default function App() {
               <h2 className="text-gold uppercase tracking-[0.4em] text-xs font-semibold mb-8">Nossa História</h2>
               <h3 className="text-4xl md:text-5xl font-serif mb-10 leading-tight">Compromisso com a <span className="italic">Verdade</span> e a Justiça.</h3>
               <p className="text-ice/70 leading-relaxed mb-8 text-lg font-light">
-                Fundado com o propósito de redefinir o conceito de assessoria jurídica, o escritório Vanguarda Advocacia combina tradição com uma visão moderna e tecnológica do direito.
+                Fundado com o propósito de redefinir o conceito de assessoria jurídica, o escritório Vanguarda Advocacia combina tradição com uma visão moderna e tecnológica do direito, sob a liderança da Dra. Helena Vanguarda.
               </p>
               <div className="grid grid-cols-2 gap-8">
                 <div>
@@ -263,7 +263,7 @@ export default function App() {
           <div className="grid md:grid-cols-2 gap-8">
             {[
               {
-                text: "A atuação do Dr. Roberto foi decisiva para a reestruturação da nossa empresa. Profissionalismo e visão estratégica impecáveis.",
+                text: "A atuação da Dra. Helena foi decisiva para a reestruturação da nossa empresa. Profissionalismo e visão estratégica impecáveis.",
                 author: "Carlos Mendes",
                 role: "CEO, TechInvest Group"
               },
