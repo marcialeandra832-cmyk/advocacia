@@ -5,6 +5,7 @@
 
 import { motion, AnimatePresence } from "motion/react";
 import { useState } from "react";
+import heroImage from "./assets/images/female_lawyer_portrait_1784769700208.jpg";
 import { 
   MessageCircle, 
   Scale, 
@@ -64,7 +65,7 @@ export default function App() {
       {/* Header Fixo */}
       <header className="fixed top-0 left-0 right-0 z-50 glass py-5 px-6 md:px-12 flex justify-between items-center">
         <div className="flex flex-col">
-          <span className="text-gold font-serif text-xl font-bold tracking-[0.2em] uppercase leading-none">Vanguarda</span>
+          <span className="text-gold font-serif text-xl font-bold tracking-[0.2em] uppercase leading-none">Figueiredo</span>
           <span className="text-[8px] text-ice/40 uppercase tracking-[0.4em] mt-1">Advocacia Estratégica</span>
         </div>
         <nav className="hidden md:flex gap-8 text-[10px] uppercase tracking-widest text-ice/60">
@@ -141,14 +142,14 @@ export default function App() {
           >
             <div className="relative z-10 rounded-[2rem] overflow-hidden border border-gold/20 aspect-[4/5] shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=1000" 
-                alt="Dra. Helena Vanguarda" 
-                className="w-full h-full object-cover grayscale brightness-90 hover:grayscale-0 transition-all duration-1000"
+                src={heroImage} 
+                alt="Dra. Helena Figueiredo" 
+                className="w-full h-full object-cover brightness-95 hover:brightness-100 transition-all duration-1000"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy via-transparent to-transparent opacity-80" />
               <div className="absolute bottom-8 left-8 right-8 p-6 glass rounded-2xl border border-white/5">
-                <div className="text-gold font-serif text-2xl mb-1">Dra. Helena Vanguarda</div>
+                <div className="text-gold font-serif text-2xl mb-1">Dra. Helena Figueiredo</div>
                 <div className="text-[10px] uppercase tracking-[0.3em] text-ice/60">OAB/SP 123.456</div>
               </div>
             </div>
@@ -167,7 +168,7 @@ export default function App() {
               <h2 className="text-gold uppercase tracking-[0.4em] text-xs font-semibold mb-8">Nossa História</h2>
               <h3 className="text-4xl md:text-5xl font-serif mb-10 leading-tight">Compromisso com a <span className="italic">Verdade</span> e a Justiça.</h3>
               <p className="text-ice/70 leading-relaxed mb-8 text-lg font-light">
-                Fundado com o propósito de redefinir o conceito de assessoria jurídica, o escritório Vanguarda Advocacia combina tradição com uma visão moderna e tecnológica do direito, sob a liderança da Dra. Helena Vanguarda.
+                Fundado com o propósito de redefinir o conceito de assessoria jurídica, o escritório Figueiredo Advocacia combina tradição com uma visão moderna e tecnológica do direito, sob a liderança da Dra. Helena Figueiredo.
               </p>
               <div className="grid grid-cols-2 gap-8">
                 <div>
@@ -268,7 +269,7 @@ export default function App() {
                 role: "CEO, TechInvest Group"
               },
               {
-                text: "Encontramos no escritório Vanguarda a segurança que precisávamos para o nosso planejamento sucessório familiar. Recomendo fortemente.",
+                text: "Encontramos no escritório Figueiredo Advocacia a segurança que precisávamos para o nosso planejamento sucessório familiar. Recomendo fortemente.",
                 author: "Helena Albuquerque",
                 role: "Diretora Executiva"
               }
@@ -342,7 +343,7 @@ export default function App() {
                 </div>
                 <div className="flex items-center gap-4 text-ice/80">
                   <Mail size={20} className="text-gold" />
-                  <span className="text-sm">contato@vanguarda.adv.br</span>
+                  <span className="text-sm">contato@figueiredo.adv.br</span>
                 </div>
               </div>
             </motion.div>
@@ -381,7 +382,7 @@ export default function App() {
 
           <div className="pt-12 border-t border-gold/10 flex flex-col md:flex-row justify-between items-center gap-8">
             <div className="flex flex-col items-center md:items-start">
-              <span className="text-gold font-serif text-xl font-bold tracking-[0.2em] uppercase">Vanguarda</span>
+              <span className="text-gold font-serif text-xl font-bold tracking-[0.2em] uppercase">Figueiredo</span>
               <span className="text-[8px] text-ice/40 uppercase tracking-[0.4em] mt-1">Excelência em cada detalhe</span>
             </div>
             
@@ -391,7 +392,7 @@ export default function App() {
             </div>
 
             <div className="text-[10px] uppercase tracking-widest text-ice/30 text-center md:text-right">
-              © 2024 Vanguarda Advocacia. <br />
+              © 2024 Figueiredo Advocacia. <br />
               Desenvolvido por Studio Premium.
             </div>
           </div>
