@@ -102,7 +102,7 @@ export default function App() {
             </h2>
             <h1 className="text-5xl md:text-7xl font-serif font-bold mb-8 leading-[1.1]">
               Protegendo seu <br />
-              <span className="italic font-normal text-gold/90">Patrimônio</span> com <br />
+              <span className="text-gold/90">Patrimônio</span> com <br />
               Autoridade.
             </h1>
             <p className="text-ice/60 text-lg mb-12 leading-relaxed font-light max-w-md">
@@ -166,7 +166,7 @@ export default function App() {
           <div className="grid md:grid-cols-2 gap-20 items-center">
             <motion.div {...fadeIn}>
               <h2 className="text-gold uppercase tracking-[0.4em] text-xs font-semibold mb-8">Nossa História</h2>
-              <h3 className="text-4xl md:text-5xl font-serif mb-10 leading-tight">Compromisso com a <span className="italic">Verdade</span> e a Justiça.</h3>
+              <h3 className="text-4xl md:text-5xl font-serif mb-10 leading-tight">Compromisso com a Verdade e a Justiça.</h3>
               <p className="text-ice/70 leading-relaxed mb-8 text-lg font-light">
                 Fundado com o propósito de redefinir o conceito de assessoria jurídica, o escritório Figueiredo Advocacia combina tradição com uma visão moderna e tecnológica do direito, sob a liderança da Dra. Helena Figueiredo.
               </p>
@@ -189,7 +189,7 @@ export default function App() {
                 referrerPolicy="no-referrer"
               />
               <div className="absolute -bottom-10 -right-10 glass p-8 rounded-2xl border border-white/10 hidden lg:block">
-                <blockquote className="text-ice/80 italic font-serif text-lg mb-4">
+                <blockquote className="text-ice/80 font-serif text-lg mb-4">
                   "O direito não é apenas uma regra, é a base da liberdade."
                 </blockquote>
                 <div className="text-gold text-xs uppercase tracking-widest">— Rui Barbosa</div>
@@ -282,7 +282,7 @@ export default function App() {
                 <div className="flex gap-1 mb-6">
                   {[1,2,3,4,5].map(i => <Star key={i} size={14} className="fill-gold text-gold" />)}
                 </div>
-                <p className="text-ice/80 italic font-serif text-lg mb-8 leading-relaxed">"{item.text}"</p>
+                <p className="text-ice/80 font-serif text-lg mb-8 leading-relaxed">"{item.text}"</p>
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-full bg-gold/20 flex items-center justify-center text-gold font-bold">
                     {item.author[0]}
@@ -328,7 +328,7 @@ export default function App() {
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-20 mb-20">
             <motion.div {...fadeIn}>
-              <h2 className="text-4xl md:text-5xl font-serif mb-8 leading-tight">Vamos iniciar sua <br /><span className="text-gold italic">Defesa Estratégica</span>?</h2>
+              <h2 className="text-4xl md:text-5xl font-serif mb-8 leading-tight">Vamos iniciar sua <br /><span className="text-gold">Defesa Estratégica</span>?</h2>
               <p className="text-ice/60 mb-12 text-lg font-light">
                 Estamos prontos para ouvir seu caso e oferecer a melhor solução jurídica. Atendimento exclusivo e sob total sigilo.
               </p>
