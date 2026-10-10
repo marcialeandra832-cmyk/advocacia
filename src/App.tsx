@@ -211,10 +211,17 @@ export default function App() {
       {/* Header Fixo: 84% opacidade azul-marinho e leve desfoque, alinhado em 1400px com 32px de margem lateral */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-[#0A192F]/84 backdrop-blur-md border-b border-gold/10 py-5">
         <div className="w-[calc(100%-64px)] max-w-[1400px] mx-auto flex justify-between items-center">
-          <div className="flex flex-col">
+          <a
+            href="#inicio"
+            onClick={(e) => {
+              e.preventDefault();
+              window.scrollTo({ top: 0, behavior: shouldReduceMotion ? "auto" : "smooth" });
+            }}
+            className="flex flex-col cursor-pointer hover:opacity-90 transition-opacity focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gold/60 rounded"
+          >
             <span className="text-gold font-serif text-xl font-bold tracking-[0.2em] uppercase leading-none">Figueiredo</span>
             <span className="text-[8px] text-ice/40 uppercase tracking-[0.4em] mt-1">Advocacia Estratégica</span>
-          </div>
+          </a>
           <nav className="hidden md:flex gap-8 text-[10px] uppercase tracking-widest text-ice/60">
             <a href="#sobre" className="hover:text-gold transition-colors">Sobre</a>
             <a href="#servicos" className="hover:text-gold transition-colors">Serviços</a>
@@ -232,7 +239,7 @@ export default function App() {
       </header>
 
       {/* Hero Section: min 100vh, fundo escritório/cidade desfocado + degradê azul-marinho (65% topo, 85% base) */}
-      <section className="relative min-h-screen flex flex-col justify-between pt-[104px] pb-0 lg:pb-10 overflow-hidden">
+      <section id="inicio" className="relative min-h-screen flex flex-col justify-between pt-[104px] pb-0 lg:pb-10 overflow-hidden">
         {/* Camada 0: Foto de fundo escura e desfocada + degradê azul-marinho 65% em cima e 85% embaixo */}
         <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
           <img
@@ -706,10 +713,17 @@ export default function App() {
           </div>
 
           <div className="pt-12 border-t border-gold/10 flex flex-col md:flex-row justify-between items-center gap-8">
-            <div className="flex flex-col items-center md:items-start">
+            <a
+              href="#inicio"
+              onClick={(e) => {
+                e.preventDefault();
+                window.scrollTo({ top: 0, behavior: shouldReduceMotion ? "auto" : "smooth" });
+              }}
+              className="flex flex-col items-center md:items-start cursor-pointer hover:opacity-90 transition-opacity"
+            >
               <span className="text-gold font-serif text-xl font-bold tracking-[0.2em] uppercase">Figueiredo</span>
               <span className="text-[8px] text-ice/40 uppercase tracking-[0.4em] mt-1">Excelência em cada detalhe</span>
-            </div>
+            </a>
             
             <div className="flex gap-8">
               <a href="#" className="text-ice/40 hover:text-gold transition-colors"><Instagram size={24} /></a>
